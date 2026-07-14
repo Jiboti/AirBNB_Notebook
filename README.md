@@ -1,5 +1,5 @@
 <h1 align="center">🏠 Airbnb Price Prediction</h1>
-<h4 align="center">Predicting the nightly price of Airbnb listings from their features — an end-to-end machine-learning regression pipeline · ESILV</h4>
+<h4 align="center">Predicting the nightly price of Airbnb listings from their features — an end-to-end machine-learning regression pipeline </h4>
 
 ---
 
