@@ -47,7 +47,10 @@ The **degree-2 polynomial + Ridge** model was chosen: it lifts R² by **+0.069**
 </p>
 distance to city center
 
+<p align="center">
 <img width="929" height="781" alt="image" src="https://github.com/user-attachments/assets/084165f9-c8ca-4ce4-b879-305cebd227ef" />
+</p>
+
 correlation matrix
 
 ## 🛠️ Tech stack
