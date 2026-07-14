@@ -1,5 +1,5 @@
 <h1 align="center">🏠 Airbnb Price Prediction</h1>
-<h4 align="center">Predicting the nightly price of Airbnb listings from their features — an end-to-end machine-learning regression pipeline </h4>
+<h4 align="center">Predicting the nightly price of Airbnb listings from their features — an end-to-end machine-learning regression pipeline · ESILV</h4>
 
 ---
 
@@ -33,7 +33,8 @@ Airbnb listings across **6 US cities** (New York, Los Angeles, San Francisco, Wa
 The **degree-2 polynomial + Ridge** model was chosen: it lifts R² by **+0.069** over the linear baseline by capturing non-linear interactions between features, while keeping a small train/val gap (≈ 0.028) thanks to Ridge. Its robustness was confirmed with **5-fold cross-validation**, and its residuals are centered on zero with a near-normal spread (no systematic bias).
 
 <p align="center">
-<img width="1398" height="536" alt="image" src="https://github.com/user-attachments/assets/84974c50-8b8d-4e1e-a5f9-aa05d11226ea" />
+  <img width="700" alt="Model comparison — R² train vs validation and overfitting" src="https://github.com/user-attachments/assets/84974c50-8b8d-4e1e-a5f9-aa05d11226ea" />
+  <br><sub><em>Model comparison — R² and overfitting</em></sub>
 </p>
 
 ## 🔑 Key findings
@@ -43,15 +44,14 @@ The **degree-2 polynomial + Ridge** model was chosen: it lifts R² by **+0.069**
 - **Size features** (`room_type`, `accommodates`, `bedrooms`, `beds`) are highly correlated with each other (r > 0.7) — multicollinearity that Ridge handles by penalizing large coefficients.
 
 <p align="center">
-  <img width="1719" height="884" alt="image" src="https://github.com/user-attachments/assets/878b186d-e654-4698-9de4-f222630d2646" />
+  <img width="700" alt="Geographic price distribution per city vs distance to center" src="https://github.com/user-attachments/assets/878b186d-e654-4698-9de4-f222630d2646" />
+  <br><sub><em>Price vs distance to the city center (per city)</em></sub>
 </p>
-distance to city center
 
 <p align="center">
-<img width="929" height="781" alt="image" src="https://github.com/user-attachments/assets/084165f9-c8ca-4ce4-b879-305cebd227ef" />
+  <img width="500" alt="Feature correlation matrix" src="https://github.com/user-attachments/assets/084165f9-c8ca-4ce4-b879-305cebd227ef" />
+  <br><sub><em>Correlation matrix</em></sub>
 </p>
-
-correlation matrix
 
 ## 🛠️ Tech stack
 
